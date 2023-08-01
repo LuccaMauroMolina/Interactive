@@ -1,47 +1,17 @@
-const DOM = document.getElementById("interactive")
+let input = document.querySelectorAll(".radius")
 
-const boton = document.getElementById("boton")
+for(let i = 0; i < 1; i++){
+    let orange = 'hsl(25, 97%, 53%)'
 
-const mostrarNumber = () => {
+    input.forEach(input => {
+        input.addEventListener("change", color)
+    })
 
-    DOM.innerHTML = `
-    <span class="spaner">1</span>
-    <span class="spaner">2</span>
-    <span class="spaner">3</span>
-    <span class="spaner">4</span>
-    <span class="spaner">5</span>
-    `
-
-    boton.innerHTML = `<button>SUBMIT</button>`
-
+    function color(){
+        let selected = document.querySelector("input[name='rating']:checked")
         
+        console.log(selected)
     }
-
-
-mostrarNumber()
-
-
-
-const Cant = () => {
     
 }
 
-
-let spaneable = document.querySelector(".spaner")
-
-let orange = `hsl(25, 97%, 53%)`
-
-function click(){
-
-Array.from(spaneable).forEach(spaneable => {
-    spaneable.addEventListener("click", () => {
-        spaneable.style.backgroundColor = orange
-        spaneable.style.color = "white"
-
-        
-
-    })
-})
-}
-
-click()
