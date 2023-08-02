@@ -112,3 +112,8 @@ button:hover{
 .radius{
     display: none;
 }
+
+input[type="radio"]:checked + label{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
