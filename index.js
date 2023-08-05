@@ -1,15 +1,20 @@
-/*let input = document.querySelectorAll(".radius")
+let centro1 = document.querySelector(".centro")
+let centro2 = document.querySelector(".segundo")
 
-for(let i = 0; i < 1; i++){
-    let orange = 'hsl(25, 97%, 53%)'
+let boton = document.getElementById("submit")
+let Numero = document.getElementById("number")
+let botones = document.querySelectorAll(".rating-number")
 
-    input.forEach(input => {
-        input.addEventListener("change", color)
+botones.forEach((numero) => {
+    numero.addEventListener("click", () => {
+        Numero.innerHTML = numero.innerHTML
     })
+})
 
-    function color(){
-        document.querySelector("input[name='rating']:checked").style.backgroundcolor  = orange
-    }
-    
-}*/
 
+
+boton.addEventListener("click", () => {
+    centro2.classList.remove(".segundo")
+    centro1.style.display = "none"
+    centro2.style.display = "flex"
+})

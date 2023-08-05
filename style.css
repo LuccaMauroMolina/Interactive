@@ -60,7 +60,7 @@ p{
     place-items: center;
 }
 
-#interactive{
+.interactive{
     display: flex;
     justify-content: space-around;
     color: hsl(216, 12%, 54%);
@@ -82,12 +82,12 @@ p{
     background-color:hsl(216, 12%, 54%);
 }
 
+
 button{
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     display: block;
     margin: auto;
-    width: 323px;
     margin-top: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -103,6 +103,10 @@ button:hover{
     transition-duration: 0.5s;
 }
 
+#submit{
+    width: 323px;
+}
+
 .center{
     display: flex;
     flex-direction: column;
@@ -113,7 +117,24 @@ button:hover{
     display: none;
 }
 
-input[type="radio"]:checked + label{
+ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/*button:checked{
     background-color: hsl(25, 97%, 53%);
-    color: white;
+}*/
+
+.segundo{
+    display: none;
 }
