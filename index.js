@@ -16,7 +16,7 @@ botones.forEach((numero) => {
 
 //This code verifies that if you don't put the value, it gives you an alert
 
-boton.addEventListener("click", () => {
+/*boton.addEventListener("click", () => {
     const create = document.getElementById("no select")
     
     if(create === null){
@@ -26,11 +26,11 @@ boton.addEventListener("click", () => {
             centro1.style.display = "none"
             centro2.style.display = "flex"
     }
-})
+})*/
 
 //This code verifies that when I select a number it appears
 
-/*
+
 boton.addEventListener("click", () => {
     const create = document.getElementById("no select")
     
@@ -42,4 +42,3 @@ boton.addEventListener("click", () => {
             centro2.style.display = "flex"
     }
 })
-*/
