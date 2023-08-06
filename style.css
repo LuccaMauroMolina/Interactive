@@ -82,6 +82,10 @@ p{
     background-color:hsl(216, 12%, 54%);
 }
 
+.rating-number:focus{
+    background-color: hsl(25, 97%, 53%);
+}
+
 
 button{
     background-color: hsl(25, 97%, 53%);
@@ -137,4 +141,21 @@ ul{
 
 .segundo{
     display: none;
+}
+
+.contador{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    border: none;
+}
+
+#number{
+    padding-left: 4px;
+    padding-right: 4px ;
+    color: hsl(25, 97%, 53%);
+}
+
+#parrafo{
+    color: hsl(25, 97%, 53%);
 }
