@@ -14,6 +14,8 @@ botones.forEach((numero) => {
     })
 })
 
+//This code verifies that if you don't put the value, it gives you an alert
+
 boton.addEventListener("click", () => {
     const create = document.getElementById("no select")
     
@@ -25,6 +27,8 @@ boton.addEventListener("click", () => {
             centro2.style.display = "flex"
     }
 })
+
+//This code verifies that when I select a number it appears
 
 /*
 boton.addEventListener("click", () => {
